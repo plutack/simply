@@ -1,5 +1,5 @@
 <div class="js-social-media social-media{{#if class}} {{class}}{{/if}}">
-    {{#if @site.facebook}}
+    {{!-- {{#if @site.facebook}}
     <a class="godo-tracking p-2 inline-block hover:opacity-70"
         data-event-category="Header"
         data-event-action="Social"
@@ -12,7 +12,20 @@
         rel="noopener noreferrer">
         <svg class="icon icon--facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    {{/if}}
+    {{/if}} --}}
+    
+    <a class="godo-tracking p-2 inline-block hover:opacity-70"
+        data-event-category="Header"
+        data-event-action="Social"
+        data-event-label="GitHub"
+        data-event-non-interaction="true"
+        title="GitHub plutack"
+        aria-label="GitHub "
+        href="https://github.com/plutack"
+        target="_blank"
+        rel="noopener noreferrer">
+        <svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg>
+    </a>
 
     {{#if @site.twitter}}
     <a class="godo-tracking p-2 inline-block hover:opacity-70"
